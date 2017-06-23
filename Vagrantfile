@@ -91,6 +91,8 @@ Vagrant.configure("2") do |config|
 
   config.vm.provision "system", type: "shell", inline: <<-SHELL
 
+    sudo apt-get install -y htop 
+    
     # gui
     sudo apt-get update
     sudo apt-get install -y xfce4
@@ -119,8 +121,8 @@ Vagrant.configure("2") do |config|
   SHELL
 
   config.vm.provision "update", type: "shell", inline: <<-SHELL
-    # sudo apt-get update
-    # sudo apt-get -y upgrade
+    sudo apt-get update
+    sudo apt-get -y upgrade
   SHELL
 
 end
