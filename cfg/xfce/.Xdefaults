@@ -1,0 +1,9 @@
+XTerm*selectToClipboard:true
+XTerm*background: black
+XTerm*foreground: white
+XTerm*SaveLines: 2000
+XTerm*faceName: Ubuntu mono
+XTerm*faceSize: 10
+XTerm*rightScrollBar: true
+XTerm*ScrollBar: true
+XTerm*scrollTtyOutput: false
